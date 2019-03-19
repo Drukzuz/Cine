@@ -1,0 +1,97 @@
+*{
+    margin: auto;
+    padding: 0;
+    margin-top: 0;
+    border: none;
+}
+
+/* Configuracion del div-header */
+
+body{
+    background: #EFEFEF;
+}
+
+.contenedor{
+    width: 100%;
+    height: auto;
+}
+
+.caja-datos{
+    margin: auto;
+    margin-top: 35px;
+    width: 400px;
+    height: 600px;
+    background: white;
+    border-radius: 10px;
+}
+
+.header{
+    padding: 30px;
+    text-align: center;
+}
+
+.titulo{
+    font-family: Roboto;
+    font-size: 34px; 
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Configuracion de la seccion para recolectar datos */
+
+.cuerpo{
+    width: 100%;
+    height: 450px; 
+    border-radius: 10px;
+    text-align: center;
+}
+
+.dato1{
+    margin-top: 50px;
+}
+
+.tit{
+    font-family: Roboto;
+    font-size: 16px;
+}
+
+.dato2{
+    margin-top: 100px;
+}
+
+.text{
+    border: 1px solid #DBDBDB;
+    width: 300px;
+    height: 45px;
+    text-align: center
+}
+
+.text::placeholder{
+    color: #BCBCBC;
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Configuracion del bottom y estetica del boton */
+
+.bottom{
+    width: 100%;
+    height: 175px;
+}
+
+.boton{
+    margin: auto;
+    margin-top: 80px;
+    height: 50px;
+    width: 300px;
+    border-radius: 30px;
+    background: #3A7EED;
+    color: white;
+    font-family: Roboto;
+    font-size: 17px;
+}
+
+.boton:hover{
+    cursor: pointer;
+    background: #326ECE;
+}

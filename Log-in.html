@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="Log-in.css">
+    <link rel="stylesheet" type="text/css" href="estilo-menu.css">
+    <link href="https://fonts.googleapis.com/css?family=Muli|Roboto" rel="stylesheet">
+	<title>Iniciar sesion</title>
+</head>
+<body>
+    <section class="contenedortt">
+        <div class="caja-titulott">
+            <h1 class="titulott">Links.</h1>
+            <p class="subtitulott">Haz click en uno de los siguientes links</p>
+        </div>
+        <div class="linkstt" id="links">
+            <table class="tabla-linkstt">
+                <tr>
+                    <td class="td-links1" onclick="agregar()"><span class="texttt">Agregar</span></td>
+                    <td class="td-links2" onclick="calendario()"><span class="texttt">Calendario</span></td>
+                    <td class="td-links3" onclick="login()"><span class="texttt">Login</span></td>
+                    <td class="td-links4" onclick="salir()"><span class="texttt">Salir</span></td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <section class="contenedor">
+        <div class="caja-datos">
+            <div class="header">
+                <h1 class="titulo">Iniciar Sesion</h1>
+            </div>
+            <div class="cuerpo">
+                <div class="dato1">
+                    <span class="tit">Email &nbsp;</span> <br><br> <input class="text" placeholder="someone@gmail.com" id="mail"> <!-- Ingreso del correo electronico -->
+                </div>
+                <div class="dato2">
+                    <span class="tit">Password &nbsp;</span> <br><br> <input type="password" class="text" placeholder="abc..." id="pass"> <!-- Ingreso de la contraseña -->
+                </div>
+                <div class="bottom">
+                    <button class="boton" onclick="botoniniciar()">Vamos!</button>  <!-- Boton que busca la funcion para comprobar el inicio de sesion -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="jquery/jquery-3.2.1.min.js"></script>
+    <script src="admFront-End.js"></script>
+    <script src="salir.js"></script>
+    <script src="links.js"></script>
+</body>
+</html>

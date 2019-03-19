@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+    border: none;
+    margin: 0;
+}
+
+body{
+    background: url('img/fondo.jpg') no-repeat fixed 50% 50%;
+    background-size: cover;
+}
+
+.titulo{
+    position: absolute;
+    left: 5px;
+    font-family: Open Sans;
+    font-weight: bolder;
+    font-size: 15px;
+    color: white;
+}
+
+.contenedor{
+    margin: auto;
+    width: 99.3%;
+    height: 750px;
+    border: 2px solid black;
+    background-size: cover;
+}
+
+.caja-asientos{
+    margin: auto;
+    width: 1200px;
+    height: 520px;
+}
+
+.pantalla{
+    margin: auto;
+    width: 800px;
+    height: 30px;
+    background: white;
+    margin-top: 200px;
+    border-radius: 5px;
+    font-family: Opens Sans;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.lado-izquierdo{
+    width: 350px;
+    height: 520px;
+    position: absolute;
+    left: 335px;
+}
+
+.lado-derecho{
+    width: 170px;
+    height: 260px;
+    position: absolute;
+    left: 840px;
+    top: 317px;
+}
+
+.text{
+    font-family: Open Sans;
+    font-weight: bolder;
+}
+
+img{
+    margin: auto;
+    width: 50px;
+    height: 50px;
+}
+
+td{
+    text-align: center;
+    width: 96px;
+    height: 62px;
+}
+
+.asientos{
+    width: 100%;
+    height: 100%;
+    background: rgb(247,109,109,0.5);
+    border-radius: 7px;
+}
+
+.asientos:hover{
+    cursor: pointer;
+    background: rgb(255,255,255,0.3);
+}
+
+.pop{
+    position: absolute;
+    width: 320px;
+    background: white;
+    border-radius: 10px;
+    left: 38%;
+    top: 200px;
+    visibility: hidden;
+}
+
+.pop-on{
+    position: absolute;
+    width: 320px;
+    background: white;
+    border-radius: 10px;
+    left: 38%;
+    top: 200px;
+    visibility: inherit;
+}
+
+.pop-titulo{
+    font-family:  Open Sans;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    color: rgb(50,50,50);
+    font-weight: bolder;
+}
+
+.pop-info{
+    margin-left: 40px;
+    color: rgb(20,20,20);
+    font-family: Open Sans;
+}
+
+.pop-caja{
+    margin-bottom: 50px;
+}
+
+.pop-caja-titulo{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.dato{
+    margin-top: 30px;
+}
+
+.pop-input{
+    border-bottom: 2px solid rgb(50,50,50,0.2);
+    text-align: center;
+}
+
+.back{
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-family: Open Sans;
+    background: #E8E8E8;
+}
+
+.back:hover{
+    cursor: pointer;
+    background: #F26868;
+}
+
+.bot{
+    margin-left: 110px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    font-family: Open Sans;
+}
+
+.bot:hover{
+    background: #F26868;
+    cursor: pointer;
+}

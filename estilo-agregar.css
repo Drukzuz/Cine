@@ -1,0 +1,70 @@
+*{
+    margin: auto;
+    padding: 0;
+}
+
+.Cuerpo{
+    width: 80%;
+    height: 630px;
+    background: white;
+    margin: auto;
+}
+
+.Cabecera{
+    margin: auto;
+    text-align: center;
+    height: 100px;
+    border-bottom: 2px solid #BABABA;
+    color: #515151;
+}
+
+.Titulo{
+    position: relative;
+    top: 30px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 30px;
+}
+
+.Datos{
+    margin: auto;
+    margin-top: 30px;
+}
+
+.Dato{
+    margin-left: 40px;        
+    text-align: center;
+    font-family: Noto Sans;
+}
+
+.But{
+    margin: auto;
+    border: none;
+    width: 80px;
+    height: 40px;
+    font-family: Roboto;
+    font-size: 15px;
+    border-radius: 3px;
+    margin-left: 38px;
+}
+
+.But:hover{
+    cursor: pointer;
+    background: #E56A6A;
+}
+
+input{
+    border: none;
+    border-bottom: 1px solid #BABABA;
+    text-align: center;
+    color: #7F7F7F;
+    height: 25px;
+}
+
+tr{
+    height: 90px;
+}
+
+.caja{
+    text-align: center;
+}

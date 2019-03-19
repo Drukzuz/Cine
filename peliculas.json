@@ -1,0 +1,213 @@
+{
+	"nombre": "Avengers",
+	"duracion_minutos": "200",
+	"genero": "Accion",
+	"idioma_audio": "Ingles",
+	"idioma_sub": "Español",
+	"sinapsis": "XXX",
+	"clasificacion": "PG13",
+	"precio": "300",
+	"hora_inicio": "2:00pm",
+	"dia": "13-3-2019",
+	"minuto_inicio": "30",
+	"asientos": {
+		"A1": {
+			"nombre_estudiante": "X",
+			"seccion": "C",
+			"carned": "2",
+		},
+		"A2": {
+			"nombre_estudiante": "X",
+			"seccion": "C",
+			"carned": "2",
+		},
+		"A3": {
+			"nombre_estudiante": "X",
+			"seccion": "C",
+			"carned": "2",
+		},
+		"A4": {
+			"nombre_estudiante": "X",
+			"seccion": "C",
+			"carned": "2",
+		},
+		"A5": {
+			"nombre_estudiante": "X",
+			"seccion": "C",
+			"carned": "2",
+		},
+		"A6": {
+			"nombre_estudiante": "X",
+			"seccion": "C",
+			"carned": "2",
+		},
+		"B1": {
+			"nombre_estudiante": "X",
+			"seccion": "C",
+			"carned": "2",
+		},
+		"B2": {
+			"nombre_estudiante": "X",
+			"seccion": "C",
+			"carned": "2",
+		},
+		"B3": {
+			"nombre_estudiante": "X",
+			"seccion": "C",
+			"carned": "2",
+		},
+		"B4": {
+			"nombre_estudiante": "X",
+			"seccion": "C",
+			"carned": "2",
+		},
+		"B5": {
+			"nombre_estudiante": "X",
+			"seccion": "C",
+			"carned": "2",
+		},
+		"B6": {
+			"nombre_estudiante": "X",
+			"seccion": "C",
+			"carned": "2",
+		},
+		"C1": {
+			"nombre_estudiante": "X",
+			"seccion": "C",
+			"carned": "2",
+		},
+		"C2": {
+			"nombre_estudiante": "X",
+			"seccion": "C",
+			"carned": "2",
+		},
+		"C3": {
+			"nombre_estudiante": "X",
+			"seccion": "C",
+			"carned": "2",
+		},
+		"C4": {
+			"nombre_estudiante": "X",
+			"seccion": "C",
+			"carned": "2",
+		},
+		"C5": {
+			"nombre_estudiante": "X",
+			"seccion": "C",
+			"carned": "2",
+		},
+		"C6": {
+			"nombre_estudiante": "X",
+			"seccion": "C",
+			"carned": "2",
+		},
+		"D1": {
+			"nombre_estudiante": "X",
+			"seccion": "C",
+			"carned": "2",
+		},
+		"D2": {
+			"nombre_estudiante": "X",
+			"seccion": "C",
+			"carned": "2",
+		},
+		"D3": {
+			"nombre_estudiante": "X",
+			"seccion": "C",
+			"carned": "2",
+		},
+		"D4": {
+			"nombre_estudiante": "X",
+			"seccion": "C",
+			"carned": "2",
+		},
+		"D5": {
+			"nombre_estudiante": "X",
+			"seccion": "C",
+			"carned": "2",
+		},
+		"E1": {
+			"nombre_estudiante": "X",
+			"seccion": "C",
+			"carned": "2",
+		},
+		"E2": {
+			"nombre_estudiante": "X",
+			"seccion": "C",
+			"carned": "2",
+		},
+		"E3": {
+			"nombre_estudiante": "X",
+			"seccion": "C",
+			"carned": "2",
+		},
+		"E4": {
+			"nombre_estudiante": "X",
+			"seccion": "C",
+			"carned": "2",
+		},
+		"F1": {
+			"nombre_estudiante": "X",
+			"seccion": "C",
+			"carned": "2",
+		},
+		"F2": {
+			"nombre_estudiante": "X",
+			"seccion": "C",
+			"carned": "2",
+		},
+		"F3": {
+			"nombre_estudiante": "X",
+			"seccion": "C",
+			"carned": "2",
+		},
+		"F4": {
+			"nombre_estudiante": "X",
+			"seccion": "C",
+			"carned": "2",
+		},
+		"G1": {
+			"nombre_estudiante": "X",
+			"seccion": "C",
+			"carned": "2",
+		},
+		"G2": {
+			"nombre_estudiante": "X",
+			"seccion": "C",
+			"carned": "2",
+		},
+		"G3": {
+			"nombre_estudiante": "X",
+			"seccion": "C",
+			"carned": "2",
+		},
+		"G4": {
+			"nombre_estudiante": "X",
+			"seccion": "C",
+			"carned": "2",
+		},
+		"H1": {
+			"nombre_estudiante": "X",
+			"seccion": "C",
+			"carned": "2",
+		},
+		"H2": {
+			"nombre_estudiante": "X",
+			"seccion": "C",
+			"carned": "2",
+		},
+		"H3": {
+			"nombre_estudiante": "X",
+			"seccion": "C",
+			"carned": "2",
+		},
+		"H4": {
+			"nombre_estudiante": "X",
+			"seccion": "C",
+			"carned": "2",
+		},
+
+	},
+	"imagen": "3HAB",
+	"estado": "activo"
+}

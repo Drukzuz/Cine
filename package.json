@@ -1,0 +1,21 @@
+{
+	"name": "Cine",
+	"version": "0.0.15",
+	"description": "Butacas hechas para ser implementadas en el cine colegial",
+	"main": "server.js",
+	"author": "Drukz",
+	"dependencies": {
+		"body-parser": "^1.18.3",
+		"express": "^3.21.2",
+		"mongoose": "~4.13.7",
+		"multer": "~0.1.6",
+		"nodemailer": "^5.1.1"
+	},
+	"devDependencies": {
+		"nodemon": "^1.11.0"
+	},
+	"scripts": {
+		"start": "node server.js"
+	},
+	"license": "ISC"
+}

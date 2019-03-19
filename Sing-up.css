@@ -1,0 +1,156 @@
+*{
+    margin: auto;
+    padding: 0;
+    margin-top: 0;
+    border: none;
+}
+
+/* Configuracion del div-header */
+
+body{
+    background: #EFEFEF;
+}
+
+.contenedor{
+    width: 100%;
+    height: auto;
+}
+
+.caja-datos{
+    margin: auto;
+    margin-top: 35px;
+    width: 400px;
+    height: 600px;
+    background: white;
+    border-radius: 10px;
+}
+
+.header{
+    padding: 30px;
+    text-align: center;
+}
+
+.titulo{
+    font-family: Roboto;
+    font-size: 34px; 
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Configuracion de la seccion para recolectar datos */
+
+.cuerpo{
+    width: 100%;
+    height: 450px; 
+    border-radius: 10px;
+    text-align: center;
+}
+
+.dato1{
+    margin-top: 10px;
+}
+
+.tit{
+    font-family: Roboto;
+    font-size: 16px;
+}
+
+.dato2{
+    margin-top: 45px;
+}
+
+.dato3{
+    margin-top: 50px;
+}
+
+.text{
+    border: 1px solid #DBDBDB;
+    width: 300px;
+    height: 45px;
+    text-align: center
+}
+
+.text::placeholder{
+    color: #BCBCBC;
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Configuracion del bottom y estetica del boton */
+
+.bottom{
+    width: 100%;
+    height: 50px;
+}
+
+.boton{
+    margin: auto;
+    margin-top: 40px;
+    height: 50px;
+    width: 250px;
+    border-radius: 30px;
+    background: #3A7EED;
+    color: white;
+    font-family: Roboto;
+    font-size: 17px;
+}
+
+.boton:hover{
+    cursor: pointer;
+    background: #326ECE;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Configuracion de la caja para la foto */
+
+.caja-foto{
+    position: absolute;
+    width: 220px;
+    height: 200px;
+    border-radius: 20px;
+    background: white;
+    bottom: 25px;
+    left: 10%;
+}
+
+.header-foto{
+    font-family: Roboto;
+    text-align: center;
+    padding: 20px;
+}
+
+#file{
+    position: absolute;
+    width: 150px;
+    padding: 6px;
+    border-radius: 20px;
+    opacity: 0;
+    z-index: 1000;
+    bottom: 40px;
+    left: 30px;
+    cursor: pointer;
+}
+
+#file:hover{
+    cursor: pointer;
+}
+
+#label{
+    text-align: center;
+    position: absolute;
+    font-family: Roboto;
+    font-size: 20px;
+    width: 150px;
+    background: #3A7EED;
+    padding: 6px;
+    border-radius: 20px;
+    bottom: 40px;
+    left: 30px;
+}
+
+#label:hover{
+    cursor: pointer;
+    background: #326ECE;
+}
+

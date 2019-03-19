@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="estilo-agregar.css">
+    <link rel="stylesheet" type="text/css" href="estilo-menu.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Roboto|Ubuntu" rel="stylesheet">
+	<title>Nueva Pelicula</title>
+</head>
+<body onload="rev()">
+    <section class="contenedortt">
+        <div class="caja-titulott">
+            <h1 class="titulott">Links.</h1>
+            <p class="subtitulott">Haz click en uno de los siguientes links</p>
+        </div>
+        <div class="linkstt" id="links">
+            <table class="tabla-linkstt">
+                <tr>
+                    <td class="td-links1" onclick="agregar()"><span class="texttt">Agregar</span></td>
+                    <td class="td-links2" onclick="calendario()"><span class="texttt">Calendario</span></td>
+                    <td class="td-links3" onclick="login()"><span class="texttt">Login</span></td>
+                    <td class="td-links4" onclick="salir()"><span class="texttt">Salir</span></td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <section class="Cuerpo">
+        <div class="Cabecera">
+            <h1 class="Titulo"> Agregar una nueva película </h1>
+        </div>
+        <div class="Datos">
+            <table>
+                <tr>
+                    <td>
+                        <div class="Dato">
+                            <span> Nombre: </span><br><input class="text" type="text" id="name">
+                        </div>
+                    </td>
+                    <td>
+                        <div class="Dato">
+                            <span> Duracion en minutos: </span><br><input class="text" type="text" id="time">
+                        </div>
+                    </td>
+                    <td>
+                        <div class="Dato">
+                            <span> Genero: </span><br><input class="text" type="text" id="gender">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="Dato">
+                            <span> Idioma: </span><br><input class="text" type="text" id="idioma">
+                        </div>
+                    </td>
+                    <td>
+                        <div class="Dato">
+                            <span> Subtitulos: </span><br><input class="text" type="text" id="sup">
+                        </div>  
+                    </td>
+                    <td>
+                        <div class="Dato">
+                            <span> Sinopsis: </span><br><input class="text" type="text" id="sinopsis">
+                        </div>           
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="Dato">
+                            <span> Clasificación: </span><br><input class="text" type="text" id="class">
+                        </div>
+                    </td>
+                    <td>
+                        <div class="Dato">
+                            <span> Precio: </span><br><input class="text" type="number" id="precio">
+                        </div>
+                    </td>
+                    <td>
+                        <div class="Dato">
+                            <span> Hora-inicio: </span><br><input class="text" type="number" id="hourset">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="Dato">
+                            <span> Fecha: </span><br><input class="text" type="date" id="date">
+                        </div>
+                    </td>
+                    <td>
+                        <div class="Dato">
+                            <span> Minuto-inicio: </span><br><input class="text" type="number" id="minset">
+                        </div>
+                    </td>
+                    <td>
+                        <div class="Dato">
+                            <span> Estado: </span><br><input class="text" type="number" id="state">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <div class="Dato">
+                            <span> Foto: </span><br><input class="text" type="file" id="imgpeli">
+                        </div>
+                    </td>
+                    <td class="caja">
+                        <button class="But" id="boton" onclick="botonguardarclick()"> Agregar </button>
+                    </td>
+
+                </tr>
+            </table>
+        </div>
+    </section>
+    <script src="jquery/jquery-3.2.1.min.js"></script>
+    <script src="links.js"></script>
+    <script src="salir.js"></script>
+    <script src="DatosFront-end.js"></script>
+</body>
+</html>
